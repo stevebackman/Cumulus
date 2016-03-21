@@ -276,111 +276,6 @@
         <value>You cannot verify more than 100 addresses at a time.</value>
     </labels>
     <labels>
-        <fullName>CONV_Accept_Risk</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Risk Accepted</shortDescription>
-        <value>I accept the risk associated with using this tool, including data loss and inconsistent data.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Account_Field</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Account Field</shortDescription>
-        <value>Account Field</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Account_Field_For_Old_HH_ID</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Account Field For Old HH ID</shortDescription>
-        <value>Account Field for Old Household Id</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Activities_Reparented</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Activites Reparented</shortDescription>
-        <value>Activities and tasks associated with 1x1 or Individual Accounts are transferred to the new Household Account</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Address_Overrides_Set</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Address Overrides</shortDescription>
-        <value>Address overrides are set for any Contact whose address is different from the Household Address</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Addresses_Mapped</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Addresses Mapped</shortDescription>
-        <value>Addresses mapped from existing Household and Contacts to new Address objects, then attached to the Contact and Household Account</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_Backed_Up</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All Data Backed Up</shortDescription>
-        <value>My data has been backed-up by going to Setup | Data Management | Export Data</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_Households_Selected</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All Households Selected</shortDescription>
-        <value>All existing Households are selected, along with their Contacts</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_Required_Removed</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All Required Removed</shortDescription>
-        <value>All required field restrictions for custom fields have been removed.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_Triggers_Disabled</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All Triggers disabled</shortDescription>
-        <value>All NPSP triggers are disabled (Your custom triggers are not disabled by the utility. For safety&apos;s sake, you should disable those too)</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_Users_Logged_Out</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All Users Logged Out</shortDescription>
-        <value>All users have logged out of my Salesforce instance.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_All_WFR_Disabled</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>All WFR and VR Disabled</shortDescription>
-        <value>All workflows and any custom validation rules have been disabled.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Batching_Explanation</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Batching Explanation</shortDescription>
-        <value>This tool will process your existing Contacts with Households in batches of 200 Households at a time, attempting to convert them to Household Accounts. Any errors during the conversion will result in one or more failed batches of Contacts while other batches may succeed.  This could leave your data in an inconsistent state.  If this occurs, you will need to immediately resolve the issue and re-run the conversion utility. The following actions are taken by the batch job associated with this tool:</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Begin</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Begin Conversion</shortDescription>
-        <value>Begin Conversion Process</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Cancel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Cancel</shortDescription>
-        <value>Cancel</value>
-    </labels>
-    <labels>
         <fullName>CONV_Configuration_Options</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -388,186 +283,11 @@
         <value>Configuration Options</value>
     </labels>
     <labels>
-        <fullName>CONV_Contacts_Attached</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Contacts Attached to Household</shortDescription>
-        <value>Contacts are disconnected from their 1x1 or Individual Account, and attached to the newly created Household Account</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Conversion_Process</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Account Model Conversion Progress</shortDescription>
-        <value>Account Model Conversion Progress</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Fundamental_Changes</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Fundamental Changes</shortDescription>
-        <value>You are about to make fundamental changes to your Salesforce data and data model. Reports, dashboards, and more may have to be modified to account for these changes. Salesforce.com and Salesforce.org are not responsible for any data or data integrity loss.  Do you still wish to proceed?</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Important_Info_Header</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Important Information Header</shortDescription>
-        <value>Important Information</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Local_Expert</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Local Expert</shortDescription>
-        <value>I&apos;ve consulted with my local Salesforce expert.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Master_Address_Set</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Master Address Set</shortDescription>
-        <value>Master Household Address set or defined if none exists based on address frequency and Contact giving</value>
-    </labels>
-    <labels>
-        <fullName>CONV_New_Affiliations</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>New Affiliations Created</shortDescription>
-        <value>Non-1x1 Accounts associations to Contacts are removed, new Affiliations created, and Contact Primary Affiliation field is set</value>
-    </labels>
-    <labels>
-        <fullName>CONV_New_Households_Created</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>New Households Created</shortDescription>
-        <value>New Household Accounts are created for each existing Household</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Non_NPSP_Apps</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Non-NPSP Apps</shortDescription>
-        <value>All non-NPSP apps have been temporarily uninstalled or disabled.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Old_Household_Objects</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Old Household Objects</shortDescription>
-        <value>Previous Household objects are left in place, and should be deleted manually after verifying the results of the conversion process.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Only_Household_Contacts</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Only Household Contacts</shortDescription>
-        <value>I am aware this tool will only work for Contacts that currently have a Household associated.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Opportunities_Reparented</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Opportunities Reparented</shortDescription>
-        <value>Opportunities are moved from the 1x1 or Individual Account and attached to the new Household Accounts and Contacts</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Original_HH_Id</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Original HH Id</shortDescription>
-        <value>You can optionally select a custom field on your new Household Account to store the original Household object Id.  This can be useful for later reparenting of any lookups or child objects originally on the Household to the new Household Account.  Only unused custom fields that hold text are eligible to be selected.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Page_Description</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Page Description</shortDescription>
-        <value>This page is designed to help you convert your organization from an existing 1x1 or Individual Account model to the new Household Account Model.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Page_Title</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Page Title</shortDescription>
-        <value>Account Model Conversion Utility</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Permanent_Change</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Permanent Change Info</shortDescription>
-        <value>This is a permanent change.  Please make sure to consult with your local expert before proceeding.  While the conversion is completing, your database functionality will be temporarily disabled to avoid accidentally modifying existing data.  Salesforce.com and Salesforce.org are not responsible for any data loss, modifications, or corruption that occur as a result of this operation. Please proceed at YOUR OWN RISK. Before beginning this process, you&apos;ll need to confirm the following steps have been taken:</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Primary_Contacts_Set</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Primary Contacts Set</shortDescription>
-        <value>Primary Contact values are set for all Households</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Proceed</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Proceed</shortDescription>
-        <value>Proceed with Conversion</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Record_Ownership_Transferred</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Record Ownership Transferred</shortDescription>
-        <value>All record ownership has been transferred from any inactive users.</value>
-    </labels>
-    <labels>
         <fullName>CONV_Reload</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Reload</shortDescription>
         <value>Reload the Converter</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Selected_Field_Bad</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Selected Field Not Able to Hold ID</shortDescription>
-        <value>The selected field is not able to hold the Household Id information as required.  Please select a different Account field.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Selected_Field_Verification_Failure</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Selected Field Not Verified for Id</shortDescription>
-        <value>An error has occurred in attempting to verify the validity of the selected Account field.  The field selected was unable to be accurately verified.  Without this verification, it cannot be determined if your field mapping, and therefore your conversion will be successful.  You may proceed at your own risk, or may select a different field to hold the Household Id.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Tested_in_Sandbox</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Tested in Sandbox</shortDescription>
-        <value>The conversion process has been tested in a fresh sandbox.</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Triggers_Reenabled</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Triggers ReEnabled</shortDescription>
-        <value>All NPSP triggers are re-enabled (You&apos;ll need to manually re-enable any custom triggers you disabled for the conversion. Also, the utility re-enables &lt;b&gt;all&lt;/b&gt; NPSP triggers, so if you selectively disabled any of them beforehand, you&apos;ll need to manually disable those again too)</value>
-    </labels>
-    <labels>
-        <fullName>CONV_Warning</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Warning</shortDescription>
-        <value>Warning!</value>
-    </labels>
-    <labels>
-        <fullName>CONV_What_This_Tool_Does</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>What This Tool Does</shortDescription>
-        <value>What This Tool Does</value>
     </labels>
     <labels>
         <fullName>CampaignMemberStatusOmit</fullName>
@@ -919,14 +639,6 @@
         <value>Percent-based allocations cannot exceed 100%.</value>
     </labels>
     <labels>
-        <fullName>alloRemainder</fullName>
-        <categories>Allocation</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>alloRemainder</shortDescription>
-        <value>Remainder:</value>
-    </labels>
-    <labels>
         <fullName>alloSingleParent</fullName>
         <categories>Allocation, Error</categories>
         <language>en_US</language>
@@ -943,52 +655,12 @@
         <value>Opportunity allocation totals cannot exceed the amount of the opportunity.</value>
     </labels>
     <labels>
-        <fullName>alloTotals</fullName>
-        <categories>Allocation</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>alloTotals</shortDescription>
-        <value>Totals:</value>
-    </labels>
-    <labels>
         <fullName>bdiAccountCustomIdError</fullName>
         <categories>Data Importer</categories>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>bdiAccountCustomIdError</shortDescription>
         <value>The Account Custom Unique ID setting field {0} must have matching fields in the NPSP Data Import object whose API Names are {1} and {2}.</value>
-    </labels>
-    <labels>
-        <fullName>bdiBatchException</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiBatchException</shortDescription>
-        <value>An error occurred during the process.  The following status was the first reported error:</value>
-    </labels>
-    <labels>
-        <fullName>bdiBtnClose</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiBtnClose</shortDescription>
-        <value>Close</value>
-    </labels>
-    <labels>
-        <fullName>bdiComplete</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiComplete</shortDescription>
-        <value>Completed</value>
-    </labels>
-    <labels>
-        <fullName>bdiCompleteWithErrors</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiCompleteWithErrors</shortDescription>
-        <value>Errors</value>
     </labels>
     <labels>
         <fullName>bdiContactCustomIdError</fullName>
@@ -999,132 +671,12 @@
         <value>The Contact Custom Unique ID setting field {0} must have matching fields in the NPSP Data Import object whose API Names are {1} and {2}.</value>
     </labels>
     <labels>
-        <fullName>bdiContactMatchEmail</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiContactMatchEmail</shortDescription>
-        <value>Email only</value>
-    </labels>
-    <labels>
-        <fullName>bdiContactMatchFnameEmail</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiContactMatchFnameEmail</shortDescription>
-        <value>First Name and Email</value>
-    </labels>
-    <labels>
-        <fullName>bdiContactMatchFnameLname</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiContactMatchFnameLname</shortDescription>
-        <value>First Name and Last Name</value>
-    </labels>
-    <labels>
-        <fullName>bdiContactMatchFnameLnameEmail</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiContactMatchFnameLnameEmail</shortDescription>
-        <value>First Name, Last Name, and Email</value>
-    </labels>
-    <labels>
-        <fullName>bdiContactMatchLnameEmail</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiContactMatchLnameEmail</shortDescription>
-        <value>Last Name and Email</value>
-    </labels>
-    <labels>
         <fullName>bdiCreated</fullName>
         <categories>Data Importer</categories>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>bdiCreated</shortDescription>
         <value>Created</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterConfigTitle</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterConfigTitle</shortDescription>
-        <value>Configuration Options</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterDescription</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterDescription</shortDescription>
-        <value>The NPSP Data Importer helps you easily import your data into the Nonprofit Starter Pack</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoLine1</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>bdiDataImporterInfoLine1</shortDescription>
-        <value>Each import record can contain up to 2 Contacts, up to 2 Organizations, an optional Home Address, and an optional Donation.</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoLine2</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterInfoLine2</shortDescription>
-        <value>Salesforce will try to match existing Contacts and Organizations, and update their information, rather than creating duplicate records.</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoLine2b</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>bdiDataImporterInfoLine2b</shortDescription>
-        <value>In order to avoid reaching service limits, the NPSP Data Importer does not verify addresses through the verification service you may have specified in NPSP Settings.</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoLine3</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterInfoLine3</shortDescription>
-        <value>Salesforce will track any data import problems on individual import records. After resolving any issues, you can re-import those failed records without having to worry about creating duplicate records.</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoLine4</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterInfoLine4</shortDescription>
-        <value>The start of the data import may not begin immediately. Its processing depends on Salesforce&apos;s current activity.</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterInfoTitle</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterInfoTitle</shortDescription>
-        <value>Important Information</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterNumToProcess</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterNumToProcess</shortDescription>
-        <value>Number of Data Import records to process:</value>
-    </labels>
-    <labels>
-        <fullName>bdiDataImporterTitle</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiDataImporterTitle</shortDescription>
-        <value>NPSP Data Import</value>
     </labels>
     <labels>
         <fullName>bdiDonation</fullName>
@@ -1215,46 +767,6 @@
         <value>Matched</value>
     </labels>
     <labels>
-        <fullName>bdiRecordsFailed</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiRecordsFailed</shortDescription>
-        <value>Records failed:</value>
-    </labels>
-    <labels>
-        <fullName>bdiRecordsImported</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiRecordsImported</shortDescription>
-        <value>Records imported:</value>
-    </labels>
-    <labels>
-        <fullName>bdiRecordsProcessed</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiRecordsProcessed</shortDescription>
-        <value>Records processed:</value>
-    </labels>
-    <labels>
-        <fullName>bdiRunBtn</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiRunBtn</shortDescription>
-        <value>Begin Data Import Process</value>
-    </labels>
-    <labels>
-        <fullName>bdiStatus</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiStatus</shortDescription>
-        <value>Current Status:</value>
-    </labels>
-    <labels>
         <fullName>bdiStatusProcessed</fullName>
         <categories>Data Importer</categories>
         <language>en_US</language>
@@ -1269,14 +781,6 @@
         <protected>false</protected>
         <shortDescription>bdiStatusProcessing</shortDescription>
         <value>is currently processing batch {0} of {1} total batches.</value>
-    </labels>
-    <labels>
-        <fullName>bdiTime</fullName>
-        <categories>Data Importer</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>bdiTime</shortDescription>
-        <value>Time:</value>
     </labels>
     <labels>
         <fullName>campaignMemberStatusDefault</fullName>
@@ -2828,22 +2332,6 @@
         <value>You are preparing to writeoff {0} Payment(s) totaling {1}.</value>
     </labels>
     <labels>
-        <fullName>pscManageSoftCreditsAdd</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsAdd</shortDescription>
-        <value>Add another soft credit</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsAmount</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsAmount</shortDescription>
-        <value>Amount</value>
-    </labels>
-    <labels>
         <fullName>pscManageSoftCreditsAmountMissing</fullName>
         <categories>Manage Soft Credits</categories>
         <language>en_US</language>
@@ -2852,28 +2340,12 @@
         <value>Please enter a soft credit amount for all entries.</value>
     </labels>
     <labels>
-        <fullName>pscManageSoftCreditsAmountOrPercent</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsAmountOrPercent</shortDescription>
-        <value>Amount or Percent</value>
-    </labels>
-    <labels>
         <fullName>pscManageSoftCreditsCantChangeCurrency</fullName>
         <categories>Manage Soft Credits</categories>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>pscManageSoftCreditsCantChangeCurrency</shortDescription>
         <value>You can&apos;t modify partial soft credit currencies directly. A partial soft credit&apos;s currency is updated when the parent opportunity&apos;s currency is modified.</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsFull</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsFull</shortDescription>
-        <value>Full</value>
     </labels>
     <labels>
         <fullName>pscManageSoftCreditsInvalidContact</fullName>
@@ -2892,46 +2364,6 @@
         <value>You have no Roles specified as Soft Credit Roles.  Under NPSP Settings, Donations, Contact Roles, you need to add the appropriate Roles to the Soft Credit Roles setting.</value>
     </labels>
     <labels>
-        <fullName>pscManageSoftCreditsOppAmount</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsOppAmount</shortDescription>
-        <value>Total Amount</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsPSCAmount</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsPSCAmount</shortDescription>
-        <value>Soft Credit Amount</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsPartial</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsPartial</shortDescription>
-        <value>Partial</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsPercent</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsPercent</shortDescription>
-        <value>Percent</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsPrimaryDonor</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsPrimaryDonor</shortDescription>
-        <value>Primary Donor</value>
-    </labels>
-    <labels>
         <fullName>pscManageSoftCreditsReconcileFail</fullName>
         <categories>Manage Soft Credits</categories>
         <language>en_US</language>
@@ -2940,52 +2372,12 @@
         <value>Total Soft Credit Amount must be less than or equal to the Opportunity Amount.  Check &apos;Allow Soft Credit Amount more than Total Amount&apos; to override.</value>
     </labels>
     <labels>
-        <fullName>pscManageSoftCreditsRestrictions</fullName>
-        <categories>Manage Soft Creditds</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsRestrictions</shortDescription>
-        <value>Soft Credit Restrictions</value>
-    </labels>
-    <labels>
         <fullName>pscManageSoftCreditsRoleMissing</fullName>
         <categories>Manage Soft Credits</categories>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>pscManageSoftCreditsRoleMissing</shortDescription>
         <value>You must specify a Role Name for all Soft Credits.</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsTitle</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsTitle</shortDescription>
-        <value>Manage Soft Credits</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsType</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsType</shortDescription>
-        <value>Type</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsUnaccounted</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsUnaccounted</shortDescription>
-        <value>Total Unaccounted</value>
-    </labels>
-    <labels>
-        <fullName>pscManageSoftCreditsValidateTotals</fullName>
-        <categories>Manage Soft Credits</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>pscManageSoftCreditsValidateTotals</shortDescription>
-        <value>Allow Soft Credit Amount more than Total Amount</value>
     </labels>
     <labels>
         <fullName>sendAcknowledgmentFailedStatus</fullName>
@@ -3858,7 +3250,7 @@ Once the process is 100% complete, you can safely leave or refresh this page.</v
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>stgHelpRDAddCampaign</shortDescription>
-        <value>If selected, adds the campaign that you’ve specified for the Recurring Donation to all related (i.e. “child”) opportunities. If this option is not selected, the campaign appears on the Recurring Donation’s first opportunity only.</value>
+        <value>If selected, adds the campaign that youâve specified for the Recurring Donation to all related (i.e. âchildâ) opportunities. If this option is not selected, the campaign appears on the Recurring Donationâs first opportunity only.</value>
     </labels>
     <labels>
         <fullName>stgHelpRDDisableScheduling</fullName>
@@ -3866,7 +3258,7 @@ Once the process is 100% complete, you can safely leave or refresh this page.</v
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>stgHelpRDDisableScheduling</shortDescription>
-        <value>Prevents the scheduling of the nightly update to Recurring Donations. You’ll need to remove any existing scheduled jobs through Setup | Monitoring | Scheduled Jobs.</value>
+        <value>Prevents the scheduling of the nightly update to Recurring Donations. Youâll need to remove any existing scheduled jobs through Setup | Monitoring | Scheduled Jobs.</value>
     </labels>
     <labels>
         <fullName>stgHelpRDFailures</fullName>
@@ -3930,7 +3322,7 @@ Once the process is 100% complete, you can safely leave or refresh this page.</v
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>stgHelpRDOppForecastMonths</shortDescription>
-        <value>Number of months’ worth of open opportunities created for Open-Ended Recurring Donations. The default is 12, so after every month, Salesforce creates another month’s worth of open opportunities (i.e., the total months’ worth of open opportunities is always 12).</value>
+        <value>Number of monthsâ worth of open opportunities created for Open-Ended Recurring Donations. The default is 12, so after every month, Salesforce creates another monthâs worth of open opportunities (i.e., the total monthsâ worth of open opportunities is always 12).</value>
     </labels>
     <labels>
         <fullName>stgHelpRDOppRT</fullName>
@@ -3938,7 +3330,7 @@ Once the process is 100% complete, you can safely leave or refresh this page.</v
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>stgHelpRDOppRT</shortDescription>
-        <value>The opportunity record type assigned to the Recurring Donation’s child opportunities.</value>
+        <value>The opportunity record type assigned to the Recurring Donationâs child opportunities.</value>
     </labels>
     <labels>
         <fullName>stgHelpRDPeriodFrequency</fullName>
