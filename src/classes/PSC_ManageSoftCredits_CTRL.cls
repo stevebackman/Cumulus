@@ -30,6 +30,7 @@
 /**
  * @author Tomas "Bobby" Hnizdil
  * @date 8/21/2013
+ * @group Opportunity
  * @description Controller for ManageSoftCredits VF page allowing users to add, remove and edit full and soft credits on Opportunity
  * This code has been contributed by KELL Partners, and enhanced by Salesforce.org
  */
@@ -89,11 +90,22 @@ public with sharing class PSC_ManageSoftCredits_CTRL {
     * @return nothing
     */ 
     public PSC_ManageSoftCredits_CTRL(ApexPages.StandardController controller) {
-        opp = [SELECT Id, Name, Amount, AccountId, Account.Name, npe01__Is_Opp_From_Individual__c, Primary_Contact__c, Primary_Contact__r.Name
-            FROM Opportunity WHERE Id = :controller.getRecord().Id];
+        Id recordId = controller.getRecord().Id;
+        String oppQuery = 'SELECT Id, Name, Amount, AccountId, Account.Name, npe01__Is_Opp_From_Individual__c, Primary_Contact__c, Primary_Contact__r.Name';
+
+        if (userInfo.isMultiCurrencyOrganization()) {
+            oppQuery += ', CurrencyIsoCode';
+        }
+
+        oppQuery +=  ' FROM Opportunity WHERE Id = :recordId';
+        opp = Database.query(oppQuery);
         isAmount = true;
         allowTooManySoftCredits = false;
-        
+
+        //if the opp Amount is null,set it to $0 and allow the page to run.
+        if (opp.Amount == null) 
+            opp.Amount = 0;
+
         // this page wants to display just the Soft Credit OCRs and PSCs.
         // since the PSC lookup to an OCR is really just a text field,
         // we can't assume the lookup is valid, and we must also deal with
@@ -243,8 +255,10 @@ public with sharing class PSC_ManageSoftCredits_CTRL {
         
             //no reason to do this, since we are redirecting back to the Opp.
             //Apexpages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM, 'All soft credit records have been saved.'));
-            
-            return new PageReference('/' + opp.Id);
+            PageReference pageRef = new PageReference('/'+opp.Id);
+            pageRef.setRedirect(true);
+            pageRef.getParameters().put('t',''+(System.currentTimeMillis()));
+            return pageRef;
         } catch (Exception ex) {
             Apexpages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, ex.getMessage()));
         }
