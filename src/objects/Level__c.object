@@ -50,7 +50,6 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Tracks the definition of levels, for any object.</description>
@@ -59,7 +58,6 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fieldSets>
@@ -117,9 +115,9 @@
     </fields>
     <fields>
         <fullName>Level_Field__c</fullName>
-        <description>The field (developer name) on the Target object to store the lookup to the current Level.  Note that this field implicitly defines the “Ladder” that this Level is part of.</description>
+        <description>The field (developer name) on the Target object to store the lookup to the current Level.  Note that this field implicitly defines the âLadderâ that this Level is part of.</description>
         <externalId>false</externalId>
-        <inlineHelpText>The field (developer name) on the Target object to store the lookup to the current Level.  Note that this field implicitly defines the “Ladder” that this Level is part of.</inlineHelpText>
+        <inlineHelpText>The field (developer name) on the Target object to store the lookup to the current Level.  Note that this field implicitly defines the âLadderâ that this Level is part of.</inlineHelpText>
         <label>Level Field</label>
         <length>255</length>
         <required>true</required>

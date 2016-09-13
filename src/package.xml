@@ -1477,11 +1477,10 @@
         <name>CustomLabel</name>
     </types>
     <types>
-        <name>CustomLabel</name>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
     </types>
     <types>
-        <members>Account</members>
-        <members>Activity</members>
         <members>Addr_Verification_Settings__c</members>
         <members>Address_Verification_Settings__c</members>
         <members>Address__c</members>
@@ -1489,7 +1488,6 @@
         <members>Allocations_Settings__c</members>
         <members>Batch_Data_Entry_Settings__c</members>
         <members>Batch__c</members>
-        <members>Contact</members>
         <members>DataImport__c</members>
         <members>Data_Import_Settings__c</members>
         <members>Engagement_Plan_Task__c</members>
@@ -1501,9 +1499,7 @@
         <members>General_Accounting_Unit__c</members>
         <members>Grant_Deadline__c</members>
         <members>Household_Naming_Settings__c</members>
-        <members>Lead</members>
         <members>Level__c</members>
-        <members>Opportunity</members>
         <members>Opportunity_Naming_Settings__c</members>
         <members>Partial_Soft_Credit__c</members>
         <members>Schedulable__c</members>
@@ -1728,9 +1724,6 @@
         <name>MatchingRule</name>
     </types>
     <types>
-        <name>MatchingRule</name>
-    </types>
-    <types>
         <members>Account.New_Address</members>
         <members>Account.New_Affiliation</members>
         <members>Account.Quick_Household_Update</members>
@@ -1812,10 +1805,6 @@
         <name>WebLink</name>
     </types>
     <types>
-        <members>Opportunity</members>
-        <name>Workflow</name>
-    </types>
-    <types>
         <members>Opportunity.Opportunity_Email_Acknowledgment</members>
         <name>WorkflowAlert</name>
     </types>
@@ -1830,5 +1819,5 @@
         <members>Opportunity.Opportunity Email Acknowledgment</members>
         <name>WorkflowRule</name>
     </types>
-    <version>37.0</version>
+    <version>33.0</version>
 </Package>
